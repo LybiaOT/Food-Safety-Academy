@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123C40">
+  <meta name="description" content="Food Safety Academy: formación práctica en inocuidad alimentaria, calidad y mejora continua. Conoce nuestros próximos cursos de BPM, HACCP, SQF y limpieza CIP.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Food Safety Academy | Formación en inocuidad alimentaria">
+  <meta property="og:description" content="Conocimiento que transforma procesos en alimentos más seguros. Cursos y capacitación profesional en inocuidad y calidad.">
+  <meta property="og:image" content="assets/hero-illustration.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <title>Food Safety Academy | Inocuidad y calidad alimentaria</title>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Food Safety Academy — inicio">
+        <img src="assets/logo.svg" alt="" width="43" height="43">
+        <span class="brand-name">FOOD SAFETY <span>ACADEMY</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="primaryNav" aria-label="Navegación principal">
+        <a href="#cursos">Cursos</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#preguntas">Preguntas frecuentes</a>
+        <a class="btn btn-small btn-primary nav-contact" href="#contacto">Contáctanos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-orb hero-orb-left" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> FORMACIÓN PROFESIONAL EN INOCUIDAD</p>
+          <h1 id="heroTitle">La calidad empieza con el <em>conocimiento.</em></h1>
+          <p class="hero-description">Capacitación práctica en inocuidad alimentaria, calidad y mejora continua. Conectamos los principios técnicos con los desafíos reales de la industria de alimentos.</p>
+          <div class="hero-actions">
+            <a href="#cursos" class="btn btn-primary btn-large">Explorar cursos <span class="btn-arrow" aria-hidden="true">↗</span></a>
+            <a href="#metodologia" class="text-link">Conoce nuestra metodología <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-trust" aria-label="Nuestros principios">
+            <span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Aplicación práctica</span>
+            <span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Rigor técnico</span>
+            <span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Mejora continua</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrap">
+            <img class="hero-art" src="assets/hero-illustration.svg" alt="Ilustración de alimentos frescos, una insignia de seguridad y controles de calidad." width="680" height="650">
+          </div>
+          <div class="floating-card floating-card-top">
+            <span class="float-icon float-icon-check" aria-hidden="true">✓</span>
+            <span><b>Buenas prácticas</b><small>En cada proceso</small></span>
+          </div>
+          <div class="floating-card floating-card-bottom">
+            <span class="float-icon float-icon-leaf" aria-hidden="true">✦</span>
+            <span><b>Calidad con propósito</b><small>Del conocimiento a la acción</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles" aria-label="Áreas de formación">
+      <div class="container principles-row">
+        <span>PREVENCIÓN</span><span class="principle-dot" aria-hidden="true">✳</span>
+        <span>CUMPLIMIENTO</span><span class="principle-dot" aria-hidden="true">✳</span>
+        <span>CULTURA DE INOCUIDAD</span><span class="principle-dot" aria-hidden="true">✳</span>
+        <span>MEJORA CONTINUA</span>
+      </div>
+    </section>
+
+    <section class="section section-courses" id="cursos" aria-labelledby="coursesTitle">
+      <div class="container">
+        <div class="section-heading heading-split">
+          <div>
+            <p class="eyebrow eyebrow-green">APRENDE CON PROPÓSITO</p>
+            <h2 id="coursesTitle">Programas para llevar la inocuidad <em>a la práctica.</em></h2>
+          </div>
+          <p>Explora las áreas que estamos preparando. Los temarios, fechas, modalidades y precios definitivos se anunciarán antes de abrir inscripciones.</p>
+        </div>
+        <div class="course-toolbar">
+          <div class="filters" role="group" aria-label="Filtrar cursos por categoría">
+            <button type="button" class="filter-btn active" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" class="filter-btn" data-filter="fundamentos" aria-pressed="false">Fundamentos</button>
+            <button type="button" class="filter-btn" data-filter="sistemas" aria-pressed="false">Sistemas</button>
+            <button type="button" class="filter-btn" data-filter="procesos" aria-pressed="false">Procesos</button>
+          </div>
+          <p class="small-note"><span class="status-dot"></span> Catálogo en preparación</p>
+        </div>
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card" data-category="fundamentos">
+            <div class="course-image course-image-sage"><img src="assets/course-bpm.svg" alt="Ilustración de higiene, instalaciones y buenas prácticas de manufactura" loading="lazy" width="470" height="250"><span class="course-status">PRÓXIMAMENTE</span></div>
+            <div class="course-body">
+              <span class="course-kicker">FUNDAMENTOS · INOCUIDAD</span>
+              <h3>Buenas Prácticas de Manufactura y NOM-251</h3>
+              <p>Los fundamentos de higiene, instalaciones, personal y controles esenciales para fabricar alimentos seguros.</p>
+              <div class="course-footer"><span class="course-mode">◷ Modalidad por confirmar</span><button type="button" class="course-detail" data-course="bpm">Ver temario <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+          <article class="course-card" data-category="sistemas">
+            <div class="course-image course-image-cream"><img src="assets/course-haccp.svg" alt="Ilustración de análisis de peligros y puntos críticos de control" loading="lazy" width="470" height="250"><span class="course-status">PRÓXIMAMENTE</span></div>
+            <div class="course-body">
+              <span class="course-kicker">SISTEMAS · PREVENCIÓN</span>
+              <h3>HACCP: análisis de peligros y puntos críticos</h3>
+              <p>Aprende a reconocer peligros, evaluar riesgos y estructurar controles preventivos efectivos.</p>
+              <div class="course-footer"><span class="course-mode">◷ Modalidad por confirmar</span><button type="button" class="course-detail" data-course="haccp">Ver temario <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+          <article class="course-card" data-category="sistemas">
+            <div class="course-image course-image-blue"><img src="assets/course-auditorias.svg" alt="Ilustración de una lista de verificación de auditoría y sello de calidad" loading="lazy" width="470" height="250"><span class="course-status">PRÓXIMAMENTE</span></div>
+            <div class="course-body">
+              <span class="course-kicker">SISTEMAS · VERIFICACIÓN</span>
+              <h3>Auditorías internas y sistemas de inocuidad</h3>
+              <p>Herramientas para auditar procesos, documentar hallazgos y dar seguimiento a acciones correctivas.</p>
+              <div class="course-footer"><span class="course-mode">◷ Modalidad por confirmar</span><button type="button" class="course-detail" data-course="auditorias">Ver temario <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+          <article class="course-card" data-category="procesos">
+            <div class="course-image course-image-mint"><img src="assets/course-cip.svg" alt="Ilustración de un sistema de limpieza de equipos y tuberías" loading="lazy" width="470" height="250"><span class="course-status">PRÓXIMAMENTE</span></div>
+            <div class="course-body">
+              <span class="course-kicker">PROCESOS · SANITIZACIÓN</span>
+              <h3>Limpieza, desinfección y fundamentos de CIP</h3>
+              <p>Conceptos para diseñar, ejecutar y verificar programas eficaces de limpieza en la industria alimentaria.</p>
+              <div class="course-footer"><span class="course-mode">◷ Modalidad por confirmar</span><button type="button" class="course-detail" data-course="cip">Ver temario <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+        </div>
+        <p class="catalog-notice"><span aria-hidden="true">ⓘ</span> Los cursos mostrados son propuestas iniciales; todavía no hay inscripciones ni compras habilitadas.</p>
+      </div>
+    </section>
+
+    <section class="section method-section" id="metodologia" aria-labelledby="methodTitle">
+      <div class="container method-grid">
+        <div class="method-intro">
+          <p class="eyebrow eyebrow-green">NUESTRA METODOLOGÍA</p>
+          <h2 id="methodTitle">Aprender. Aplicar. <em>Mejorar.</em></h2>
+          <p>Queremos que cada lección se convierta en decisiones más claras, procesos más robustos y una cultura preventiva que se sostenga en el tiempo.</p>
+          <div class="method-highlight"><span class="highlight-mark" aria-hidden="true">“</span><p>La inocuidad no es solo cumplir una norma. Es saber por qué existe cada control y cómo mantenerlo eficaz.</p></div>
+        </div>
+        <div class="method-steps">
+          <div class="method-step"><span class="step-number">01</span><div><h3>Entiende el fundamento</h3><p>Explicaciones claras, referencias técnicas y conceptos esenciales.</p></div></div>
+          <div class="method-step"><span class="step-number">02</span><div><h3>Practica con situaciones reales</h3><p>Ejemplos de planta, análisis de escenarios y ejercicios de aplicación.</p></div></div>
+          <div class="method-step"><span class="step-number">03</span><div><h3>Lleva el aprendizaje a tu proceso</h3><p>Herramientas que ayudan a convertir el conocimiento en mejoras observables.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section format-section" aria-labelledby="formatsTitle">
+      <div class="container">
+        <div class="section-heading centered-heading"><p class="eyebrow eyebrow-green">FORMACIÓN FLEXIBLE</p><h2 id="formatsTitle">Distintas maneras de <em>aprender.</em></h2><p>Estamos diseñando formatos que se adapten a profesionales y equipos de trabajo.</p></div>
+        <div class="format-grid">
+          <div class="format-card"><div class="format-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="4" y="6" width="24" height="18" rx="3"/><path d="m12 12 9 4-9 4v-8ZM11 28h10"/></svg></div><h3>Clases grabadas</h3><p>Contenido organizado en módulos para avanzar a tu propio ritmo.</p><span>EN PLANEACIÓN</span></div>
+          <div class="format-card"><div class="format-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="3.5" y="6" width="25" height="19" rx="3"/><circle cx="16" cy="13" r="3"/><path d="M10 22c1-3 3-4 6-4s5 1 6 4M10 29h12"/></svg></div><h3>Sesiones en vivo</h3><p>Espacios para preguntar, analizar casos y aprender en comunidad.</p><span>EN PLANEACIÓN</span></div>
+          <div class="format-card"><div class="format-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 27V9l11-5 11 5v18H5Z"/><path d="M5 14h22M10 19h4v8m4-8h4v8"/></svg></div><h3>Capacitación para empresas</h3><p>Programas enfocados en retos operativos y necesidades del equipo.</p><span>EN PLANEACIÓN</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="nosotros" aria-labelledby="aboutTitle">
+      <div class="container about-grid">
+        <div class="about-visual" aria-hidden="true">
+          <div class="about-circle about-circle-one"></div><div class="about-circle about-circle-two"></div>
+          <div class="about-brand-seal"><img src="assets/logo.svg" alt="" width="96" height="96"><p>CONOCIMIENTO • PREVENCIÓN • CONFIANZA</p></div>
+          <div class="about-side-label">CALIDAD DESDE EL ORIGEN</div>
+        </div>
+        <div class="about-copy"><p class="eyebrow eyebrow-green">QUIÉNES SOMOS</p><h2 id="aboutTitle">Una visión de calidad que va <em>más allá del aula.</em></h2><p>Food Safety Academy nace con la intención de acercar la formación técnica en inocuidad alimentaria a quienes operan, supervisan, verifican y mejoran los procesos de la industria.</p><p>Creemos en el conocimiento accesible, aplicable y basado en buenas prácticas, con especial atención a los desafíos cotidianos de producción y aseguramiento de calidad.</p><div class="about-tags"><span>BPM y programas prerrequisito</span><span>HACCP</span><span>Auditorías</span><span>Procesos higiénicos</span></div></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="preguntas" aria-labelledby="faqTitle">
+      <div class="container faq-grid">
+        <div><p class="eyebrow eyebrow-green">RESOLVEMOS TUS DUDAS</p><h2 id="faqTitle">Preguntas <em>frecuentes.</em></h2><p class="faq-side-text">Conoce cómo estamos preparando nuestros programas y qué puedes esperar de la academia.</p></div>
+        <div class="faq-list">
+          <details><summary>¿Ya están abiertas las inscripciones?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Todavía no. Esta página presenta el proyecto y un catálogo preliminar. Anunciaremos precios, fechas y enlaces de inscripción una vez que los programas estén listos.</p></details>
+          <details><summary>¿Los cursos serán en vivo o grabados?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Estamos considerando ambas modalidades. Cada ficha de curso indicará su formato, duración y requisitos antes del lanzamiento.</p></details>
+          <details><summary>¿Se entregarán certificados?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Planeamos ofrecer constancias o certificados de finalización en los cursos que correspondan. Su alcance y los requisitos se indicarán antes de inscribirse. No equivalen automáticamente a certificaciones oficiales, DC-3 ni acreditaciones gubernamentales.</p></details>
+          <details><summary>¿Ofrecerán capacitación para empresas?<span class="faq-plus" aria-hidden="true">+</span></summary><p>Es una de las modalidades previstas. Puedes preparar una consulta para conversar sobre las necesidades de capacitación de tu equipo.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto" aria-labelledby="contactTitle">
+      <div class="container contact-grid">
+        <div class="contact-copy"><p class="eyebrow eyebrow-light">HABLEMOS DE CALIDAD</p><h2 id="contactTitle">El siguiente paso en inocuidad <em>comienza aquí.</em></h2><p>¿Te interesa recibir información de un curso o explorar capacitación para tu equipo? Prepara tu consulta y personalizaremos nuestros canales de atención antes del lanzamiento.</p><div class="contact-detail"><span class="contact-icon" aria-hidden="true">✳</span><span>Formación especializada en industria alimentaria<br><small>Food Safety Academy · México</small></span></div></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <h3>Cuéntanos qué necesitas</h3>
+          <p class="contact-form-intro">Esta versión de demostración <strong>todavía no envía mensajes</strong>. El botón preparará tu consulta para copiarla.</p>
+          <div class="form-row"><label>Tu nombre<input required id="contactName" name="nombre" type="text" autocomplete="name" placeholder="Nombre y apellido"></label><label>Tu correo<input required id="contactEmail" name="correo" type="email" autocomplete="email" placeholder="nombre@empresa.com"></label></div>
+          <label>Me interesa<select id="contactTopic" name="tema"><option value="Información de cursos">Información de cursos</option><option value="Capacitación para empresas">Capacitación para empresas</option><option value="Colaboraciones">Colaboraciones</option><option value="Otra consulta">Otra consulta</option></select></label>
+          <label>Mensaje<textarea id="contactMessage" name="mensaje" rows="3" placeholder="Me gustaría conocer fechas y modalidad del curso de..." required></textarea></label>
+          <button type="submit" class="btn btn-form">Copiar mi consulta <span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a href="#inicio" class="brand footer-brand"><img src="assets/logo.svg" alt="" width="38" height="38"><span class="brand-name">FOOD SAFETY <span>ACADEMY</span></span></a><p>Conocimiento que fortalece la inocuidad de los alimentos.</p><a href="#inicio" class="back-top">Volver arriba ↑</a></div><div class="container footer-bottom"><small>© <span id="year"></span> Food Safety Academy. Proyecto en desarrollo.</small><small>Esta web es informativa; aún no realiza ventas ni imparte cursos.</small></div></footer>
+
+  <dialog class="course-dialog" id="courseDialog" aria-labelledby="dialogTitle"><button type="button" class="dialog-close" id="dialogClose" aria-label="Cerrar detalles">×</button><p class="eyebrow eyebrow-green">TEMARIO PROPUESTO · SUJETO A CAMBIOS</p><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><h3>Contenido preliminar</h3><ul id="dialogTopics"></ul><div class="dialog-actions"><span class="dialog-label">Inscripciones aún no disponibles</span><a class="btn btn-primary" href="#contacto" id="dialogCTA">Preparar una consulta <span aria-hidden="true">↗</span></a></div></dialog>
+</body>
+</html>
