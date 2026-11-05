@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+<title id="title">Food Safety Academy</title><desc id="desc">Escudo verde con hoja y símbolo de aprobación</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#198875"/><stop offset="1" stop-color="#0A5148"/></linearGradient></defs>
+<rect width="120" height="120" rx="29" fill="url(#g)"/>
+<path d="M60 17C45 27 34 28 27 29v27c0 23 12 38 33 47 21-9 33-24 33-47V29C86 28 75 27 60 17Z" fill="none" stroke="#EAF8EE" stroke-width="4" stroke-linejoin="round"/>
+<path d="M60 74C47 66 43 57 46 45c13 0 22 7 24 18" fill="#BDE6B9"/>
+<path d="M60 74C73 63 78 54 74 41c-11 2-22 10-25 22" fill="#DAF2D6"/>
+<path d="M58 82c.5-11 3-20 10-31" fill="none" stroke="#F8FAEE" stroke-width="3.3" stroke-linecap="round"/>
+<path d="m70 79 6 6 12-13" fill="none" stroke="#E0BD73" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

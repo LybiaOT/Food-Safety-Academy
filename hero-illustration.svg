@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="650" viewBox="0 0 680 650" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Alimentos seguros y calidad</title><desc id="desc">Ilustración moderna de alimentos frescos en un plato con insignia de calidad y pequeñas hojas alrededor.</desc>
+<defs>
+  <linearGradient id="bg" x1="66" y1="44" x2="601" y2="586" gradientUnits="userSpaceOnUse"><stop stop-color="#D9EDE0"/><stop offset="1" stop-color="#BBDCCE"/></linearGradient>
+  <linearGradient id="plate" x1="140" y1="70" x2="572" y2="574" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#EAF5EC"/></linearGradient>
+  <linearGradient id="pepper" x1="390" y1="207" x2="503" y2="345"><stop stop-color="#E1BD6D"/><stop offset="1" stop-color="#E99355"/></linearGradient>
+  <filter id="shadow" x="70" y="49" width="551" height="550" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="15"/></filter>
+  <filter id="float" x="0" y="0" width="680" height="650"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#346C5B" flood-opacity=".12"/></filter>
+</defs>
+<circle cx="344" cy="320" r="270" fill="url(#bg)"/>
+<circle cx="344" cy="320" r="252" stroke="#ECF8EF" stroke-width="2" stroke-dasharray="3 11" opacity=".8"/>
+<circle cx="338" cy="323" r="212" fill="#4B886B" opacity=".16" filter="url(#shadow)"/>
+<circle cx="339" cy="303" r="218" fill="url(#plate)" stroke="#FBFFFC" stroke-width="14"/>
+<circle cx="339" cy="303" r="188" stroke="#DDEEE3" stroke-width="3"/>
+<circle cx="339" cy="303" r="154" fill="#F4FAF2"/>
+<!-- broad leafy greenery -->
+<g filter="url(#float)">
+ <path d="M296 311c-90-21-115-100-72-148 46 5 79 40 85 104" fill="#407F64"/>
+ <path d="M295 288c-65-30-94-63-86-103 48 14 75 42 86 103" fill="#6EA781"/>
+ <path d="M287 322c-84 6-116-37-119-83 59-18 104 20 119 83" fill="#579477"/>
+ <path d="M292 306c-43-36-50-68-48-100" stroke="#D7F0D8" stroke-width="4" stroke-linecap="round"/>
+ <path d="M281 319c-41-15-62-38-83-59" stroke="#CFECCD" stroke-width="4" stroke-linecap="round"/>
+ <path d="M365 310c22-96 100-123 144-90-7 57-50 98-110 113" fill="#407B59"/>
+ <path d="M380 302c42-56 72-68 108-65-16 52-45 71-108 65" fill="#76AA76"/>
+ <path d="M379 317c60-26 106-7 121 32-36 36-95 21-121-32" fill="#5C956D"/>
+ <path d="M384 311c37-31 62-49 94-70" stroke="#E0F0DA" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- tomato slices lower-left -->
+<g filter="url(#float)">
+  <circle cx="268" cy="398" r="82" fill="#E69F64"/>
+  <circle cx="268" cy="398" r="69" fill="#EC6E56" stroke="#F5BE89" stroke-width="11"/>
+  <circle cx="268" cy="398" r="46" fill="#E75E4D" stroke="#F7AB73" stroke-width="3"/>
+  <path d="M268 351v92M221 398h94M234 365l68 65M302 365l-68 65" stroke="#F5A280" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="268" cy="398" r="13" fill="#F4C68C"/>
+  <ellipse cx="253" cy="372" rx="4" ry="9" fill="#FFDDAC" transform="rotate(-25 253 372)"/>
+</g>
+<!-- yellow bell pepper upper-right -->
+<g filter="url(#float)">
+  <path d="M403 218c25-38 72-44 104-12 32 32 19 91-11 115-18 14-26 15-43-4-16 20-28 19-48 4-38-34-41-77-2-103Z" fill="url(#pepper)"/>
+  <path d="M455 223c18 19 22 72-3 99" stroke="#F6D394" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+  <path d="M443 208c-4-18 1-32 14-39" stroke="#4E7A4F" stroke-width="11" stroke-linecap="round"/>
+  <path d="M426 186c15-1 25 3 31 12" stroke="#6DA36E" stroke-width="8" stroke-linecap="round"/>
+</g>
+<!-- cucumber lower-right -->
+<g transform="rotate(-24 434 399)" filter="url(#float)">
+  <rect x="362" y="360" width="149" height="79" rx="39.5" fill="#3B8B70"/>
+  <rect x="376" y="372" width="120" height="56" rx="28" fill="#A7D98D" stroke="#E2EFC6" stroke-width="7"/>
+  <ellipse cx="436" cy="400" rx="39" ry="22" fill="#D5EFC0"/>
+  <ellipse cx="436" cy="400" rx="21" ry="12" stroke="#9ABB7E" stroke-width="2" stroke-dasharray="2 5"/>
+</g>
+<!-- central badge -->
+<g filter="url(#float)">
+  <circle cx="341" cy="300" r="76" fill="white" stroke="#CDE3D1" stroke-width="7"/>
+  <circle cx="341" cy="300" r="63" fill="#EAF7EC"/>
+  <path d="M341 252c-14 10-27 12-37 14v28c0 23 16 40 37 51 22-11 37-28 37-51v-28c-10-2-22-4-37-14Z" fill="#155E55"/>
+  <path d="m323 297 13 14 27-29" stroke="#EAF7EC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- floating accents -->
+<g fill="#7BAF8B"><circle cx="99" cy="181" r="6"/><circle cx="574" cy="415" r="5"/><circle cx="574" cy="152" r="7" opacity=".55"/><circle cx="128" cy="451" r="5"/></g>
+<g stroke="#73A88F" stroke-width="3" stroke-linecap="round"><path d="M127 113v21m-10-10h20"/><path d="M554 492v20m-10-10h20"/><path d="M575 250v14m-7-7h14"/></g>
+<g fill="#C49E5D"><circle cx="145" cy="358" r="4"/><circle cx="539" cy="358" r="4"/><circle cx="519" cy="128" r="3"/></g>
+</svg>
